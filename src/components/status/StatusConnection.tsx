@@ -45,7 +45,7 @@ export function StatusConnection() {
   }, []);
 
   return (
-    <div className="fixed right-4 bottom-4 flex items-center gap-2 bg-white/90 backdrop-blur-sm p-2 rounded-lg shadow-sm">
+    <div className="flex items-center gap-2">
       <div className={cn(
         'w-2 h-2 rounded-full',
         isLoading ? 'bg-yellow-500' : 
